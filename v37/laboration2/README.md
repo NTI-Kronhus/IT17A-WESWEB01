@@ -1,15 +1,8 @@
 # Laboration #2 i MySQL
 
 1. Skapa en ny databas och välj den sedan med kommandot USE. <br>
-  Läs sedan in filerna countries.sql och cities.sql som finns i denna mapp. <br>
-  Skriv```SOURCE``` följt av sökvägen till de två ovanstående filerna som du laddat hem.<br>
-  Exempel:
-```
-CREATE DATABASE lab2; 
-USE lab2; 
-SOURCE "C:/Users/elev/Desktop/cities.sql"
-SOURCE "C:/Users/elev/countries.sql"
-```
+  Kopiera in filerna countries.sql och cities.sql som finns i denna mapp. <br>
+
 2. Testa nu att undersöka vad som finns i de olika tabellerna och hur de är uppbyggda. *(```EXPLAIN``` och ```SELECT```)*
 
 ## Nu ska vi leka lite med de inbyggda kommandona i MySQL.<br> De kommandon vi kommer jobba med är följande:
