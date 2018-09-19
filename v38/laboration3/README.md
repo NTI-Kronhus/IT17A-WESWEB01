@@ -142,24 +142,24 @@ För varje fråga man svarar rätt på och skickar in får man dock 1 bonuspoän
 
 1. Skapa tre tabeller i din databas med tillhörande kolumner.
   * Users (Tabell för att lagra användare)
-	* **Users_Id**
+	* **Users_Id** *(PRIMARY KEY)*
 	* Users_Username
 	* Users_First_name
 	* Users_Last_name
 	* Users_Mail
 
   * Posts (Tabell för att lagra inlägg skapade av en specifik användare)
-	* **Posts_Id**
-	* *Posts_User*
+	* **Posts_Id** *(PRIMARY KEY)*
+	* Posts_User *(Koppa till Users)*
 	* Posts_Headline
 	* Posts_Text
 	* Posts_Likes
 	* Posts_Creation_time
 	
   * Comments (Tabell för att lagra kommentarer på ett specifikt inlägg skapade av en specifik användare)
-	* **Comments_Id**
-	* *Comments_Post*
-	* *Comments_User*
+	* **Comments_Id** *(PRIMARY KEY)*
+	* Comments_Post *(Koppa till Posts)*
+	* Comments_User *(Koppa till Users)*
 	* Comments_Text
 	* Comments_Likes
 	* Comments_Creation_time
