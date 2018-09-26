@@ -185,5 +185,5 @@ För varje fråga man svarar rätt på och skickar in får man dock 1 bonuspoän
 	* Vad ska jag skriva för att ta bort alla kommentarer som användaren med id=3 skrivit?
 	* Vad ska jag skriva för att ta bort användaren med id=2? (Flera rader krävs)
 	
-### Deadline Måndag 1/9 23:59. *OBS! Provet är Onsdag den 3/10*
-	
+### Maila mig svaren innan Måndag 1/9 23:59. *OBS! Provet är Onsdag den 3/10*
+Joakim.Ohlsson@ntig.se
