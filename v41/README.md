@@ -7,7 +7,7 @@
     * Födelsedatum
     * Mail
     * Mobilnummer
-    * Kön
+    * Kön (radio-buttons)
     * Lösenord
   
 3. Skapa ytterligare en PHP-fil som heter post.php.
