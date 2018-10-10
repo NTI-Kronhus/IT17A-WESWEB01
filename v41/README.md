@@ -10,8 +10,8 @@
     * Kön
     * Lösenord
   
-3. Skapa ytterligare en PHP-fil som heter get.php.
-4. Gör så att datan från formuläret skickas till get.php.
+3. Skapa ytterligare en PHP-fil som heter post.php.
+4. Gör så att datan från formuläret skickas till post.php.
 5. Skriv kod i get.php så att all information som skickas skrivs ut på sidan med en passande text.
 Exempel:
  ```
