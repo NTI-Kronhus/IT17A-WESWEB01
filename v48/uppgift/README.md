@@ -1,4 +1,4 @@
-*# Skapa en enkel webplats
+# Skapa en enkel webplats
 
 För betyget E:
   * Webplatsen ska ha minst 3 st olika sidor.
