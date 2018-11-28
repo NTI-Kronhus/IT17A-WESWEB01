@@ -1,18 +1,38 @@
 <!DOCTYPE html>
+<html>
+
+<head>
+</head>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
 </head>
-<body>
-    
-    <from>
-        Namn:<input type="text">
-        Födelsedatum:<input type="date">
-        <input type="text">
-        <input type="text">
-        <input type="text">
-    </from>
 
+<body>
+
+
+    <form action="submit.php" method="POST">
+
+        Name:
+        <input name="name" type="text"><br>
+
+        Birth-date:
+        <input name="birth" type="tel"><br>
+
+        Mail:
+        <input name="mail" type="email"><br>
+
+        Password:
+        <input name="pass" type="password"><br>
+
+        Gender:
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female"> Female
+
+        <input type="submit" value="Skicka">
+    </form>
 </body>
+
 </html>
